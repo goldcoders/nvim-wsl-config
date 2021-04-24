@@ -57,7 +57,6 @@ endif
 
 
 if has_key(plugs, 'vim-prettier')
-echo "HAS pretier"
     source ~/.config/nvim/plugins/prettier.vim
 endif
 

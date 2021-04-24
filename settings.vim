@@ -24,7 +24,7 @@ set formatoptions+=o            " Continue comment marker in new lines.
 set nowrap                      " don't wrap lines
 set modeline                    " Enable modeline.
 set linespace=0                 " Set line-spacing to minimum.
-set relativenumber 
+set relativenumber
 set nojoinspaces                " Prevents inserting two spaces after punctuation on a join (J)
 set clipboard=unnamedplus       " Use the Global Clipboard with Vim
 set mouse=                      " Enable Mouse Options
