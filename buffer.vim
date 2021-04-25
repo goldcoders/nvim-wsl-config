@@ -1,8 +1,8 @@
 " Buffer Management
-nmap <silent> bp :bp<CR>
-nmap <silent> bn :bn<CR>
-nmap <silent> bl :ls<CR>
-nmap <silent>bd :bp <BAR> bd #<CR> " Delete Buffer
+nmap <leader> bp :bp<CR>
+nmap <leader> bn :bn<CR>
+nmap <leader> bl :ls<CR>
+nmap <leader>bd :bp <BAR> bd #<CR> " Delete Buffer
 
 
 " Delete All Buffers Except the Current One Being Edit
