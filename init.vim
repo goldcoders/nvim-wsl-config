@@ -69,4 +69,5 @@ if !exists('g:vscode')
   source ~/.config/nvim/tab.vim
   source ~/.config/nvim/move-line.vim
   source ~/.config/nvim/flutter.vim
+  source ~/.config/nvim/quickfixlist.vim
 endif
