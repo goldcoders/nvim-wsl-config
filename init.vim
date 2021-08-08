@@ -13,9 +13,21 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'preservim/nerdcommenter'
+Plug 'vim-test/vim-test'
 
 " Global Shared Settings
 set clipboard=unnamedplus       " Use the Global Clipboard with Vim
+
+" yank till end of line
+noremap Y y$<cr>
+
+" For Dart Testing
+nnoremap <space>r :TestNearest<cr>
+nnoremap <space>f :TestFile<cr>
+nnoremap <space>s :TestSuite<cr>
+
+"nmap <silent> t<C-l> :TestLast<CR>
+"nmap <silent> t<C-g> :TestVisit<CR>
 
 if exists('g:vscode')
   source ~/.config/nvim/vscode.vim
