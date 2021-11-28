@@ -1,12 +1,12 @@
 "-------------GENERAL SETTINGS--------------"
 " NVIM CONFIG checkhealth
-let g:loaded_python_provider=0
+let g:loaded_python_provider=1
 "let g:python_host_prog="/usr/bin/python2"
-let g:python3_host_prog="/opt/homebrew/bin/python3"
-let g:ruby_host_prog="/usr/bin/ruby"
+let g:python3_host_prog="/usr/bin/python3"
+"let g:ruby_host_prog="/usr/bin/ruby"
 let g:loaded_perl_provider=0
 " Use this if we wanna use PYENV
-let g:python_host_prog="/Users/uriah/.pyenv/shims/python"
+let g:python_host_prog="/usr/bin/python"
 
 let g:session_autosave = 'yes'
 let g:session_autoload = 'yes'
